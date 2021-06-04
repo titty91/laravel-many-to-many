@@ -7,9 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    @include('containers.header')
+    @include('components.header')
     @yield('content')
-    @include('containers.footer')
+    @include('components.footer')
     
 </body>
 </html>
